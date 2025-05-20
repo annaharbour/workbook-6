@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CustomCollections" />
         <module name="WorkingWithInterfaces" />
+        <module name="Streams" />
         <module name="Portfolio" />
       </profile>
     </annotationProcessing>

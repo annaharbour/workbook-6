@@ -44,13 +44,13 @@ classDiagram
 
     class Jewelry {
         - BigDecimal karat
-        + Jewelry(name: String, karat: BigDecimal, value: BigDecimal)
+        + Jewelry(name: String, karat: BigDecimal, marketValue: BigDecimal)
         + getValue(): BigDecimal
     }
 
     class Gold {
         - double weight
-        + Gold(name: String, weight: double, value: BigDecimal)
+        + Gold(name: String, weight: double, marketValue: BigDecimal)
         + getValue(): BigDecimal
     }
 
@@ -58,7 +58,7 @@ classDiagram
         - int yearBuilt
         - int squareFeet
         - int bedrooms
-        + House(name: String, year: int, squareFeet: int, bedrooms: int, value: BigDecimal)
+        + House(name: String, year: int, squareFeet: int, bedrooms: int, marketValue: BigDecimal)
         + getValue(): BigDecimal
     }
 

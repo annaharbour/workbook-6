@@ -64,9 +64,9 @@ classDiagram
 
     Portfolio o-- "0..*" Valuable
     Valuable <|.. BankAccount
+    Valuable <|.. FixedAsset
     Valuable <|.. CreditCard
 
-    Valuable <|.. FixedAsset
     FixedAsset <|-- Jewelry
     FixedAsset <|-- Gold
     FixedAsset <|-- House

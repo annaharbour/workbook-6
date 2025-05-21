@@ -9,6 +9,7 @@
         <module name="CustomCollections" />
         <module name="WorkingWithInterfaces" />
         <module name="Streams" />
+        <module name="TurtlePaint" />
         <module name="Portfolio" />
       </profile>
     </annotationProcessing>
